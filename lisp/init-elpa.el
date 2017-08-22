@@ -1,5 +1,8 @@
+;;; package --- Summary
+;;; Commentary:
 (require 'package)
 
+;;; Code:
 (defun require-package(package)
   "Install given PACKAGE if it was not installed before."
   (if (package-installed-p package)
@@ -15,3 +18,4 @@
 (package-initialize)
 
 (provide 'init-elpa)
+;;; init-elpa ends here
