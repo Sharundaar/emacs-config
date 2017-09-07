@@ -3,6 +3,8 @@
 
 
 (require 'cc-mode)
+(require-package 'autopair)
+(require-package 'monokai-theme)
 
 ;;; Code:
 (setq-default c-basic-offset 4 c-default-style "linux")
